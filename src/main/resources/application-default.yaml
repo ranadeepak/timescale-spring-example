@@ -1,0 +1,22 @@
+#spring:
+#  datasource:
+#    hikari:
+#      connectionTimeout: 20000
+#      maximumPoolSize: 5
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+#    password: password
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+##      database-platform: org.hibernate.dialect.PostgreSQLDialect
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://postgres@localhost:5432/example
+    password: password
+logging:
+  level:
+    org:
+      springframework:
+        r2dbc=DEBUG:
