@@ -1,7 +1,7 @@
-package nl.rabobank.timescale.conditionals.controllers
+package com.example.timescale.conditionals.controllers
 
-import nl.rabobank.timescale.conditionals.model.Conditionals
-import nl.rabobank.timescale.conditionals.services.ConditionalService
+import com.example.timescale.conditionals.model.Conditionals
+import com.example.timescale.conditionals.services.ConditionalService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping

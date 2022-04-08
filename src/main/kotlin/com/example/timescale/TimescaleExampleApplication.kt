@@ -1,4 +1,4 @@
-package nl.rabobank.timescale
+package com.example.timescale
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

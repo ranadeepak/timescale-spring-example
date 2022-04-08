@@ -1,8 +1,8 @@
-package nl.rabobank.timescale.conditionals.services
+package com.example.timescale.conditionals.services
 
 import kotlinx.coroutines.flow.toList
-import nl.rabobank.timescale.conditionals.model.Conditionals
-import nl.rabobank.timescale.conditionals.repositories.ConditionReactiveRepository
+import com.example.timescale.conditionals.model.Conditionals
+import com.example.timescale.conditionals.repositories.ConditionReactiveRepository
 import org.springframework.stereotype.Service
 import java.time.LocalDateTime
 

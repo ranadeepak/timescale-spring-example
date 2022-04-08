@@ -1,6 +1,6 @@
-package nl.rabobank.timescale.conditionals.repositories
+package com.example.timescale.conditionals.repositories
 
-import nl.rabobank.timescale.conditionals.model.Conditionals
+import com.example.timescale.conditionals.model.Conditionals
 import org.springframework.data.repository.kotlin.CoroutineCrudRepository
 import org.springframework.stereotype.Repository
 import java.time.LocalDateTime

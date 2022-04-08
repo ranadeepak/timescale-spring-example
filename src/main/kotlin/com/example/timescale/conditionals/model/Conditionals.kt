@@ -1,4 +1,4 @@
-package nl.rabobank.timescale.conditionals.model
+package com.example.timescale.conditionals.model
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.domain.Persistable
